@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	char i,j,a='A';
+	clrscr();
+	for(i=1;i<=5;i++)//row
+	{
+		for(j=1;j<=5;j++)//colum
+		{
+		printf("%c  ",a++);
+
+		}
+		printf("\n");
+	}
+
+
+	getch();
+}

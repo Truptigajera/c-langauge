@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int celsius=10,frnhit;
+clrscr();
+frnhit=celsius*9/5+32;
+printf("frnhit:%d",frnhit);
+getch();
+}

@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,x;
+	clrscr();
+	printf("enter a,b:");
+	scanf("%d%d",&a,&b);
+	x=a;
+	a=b;
+	b=x;
+	printf("swapping value:\na\tb");
+	printf("\n%d\t%d",a,b);
+       //	printf("swapping value b=%f a=%f",a,b);
+	getch();
+}

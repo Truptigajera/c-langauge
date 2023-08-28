@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	float rate,qty,amt,dis,bill,gst,netbill;
+	clrscr();
+	printf("enter rate,qty:");
+	scanf("%f%f",&rate,&qty);
+	amt=(rate*qty);
+	dis=amt*0.05;
+       //	printf(" amt is:%f",amt);
+	bill=amt - dis;
+      //	printf("bill:%f",bill);
+	gst=bill*0.18;
+    //	printf("Gst:%f",gst);
+	netbill=bill + gst;
+  //	printf("net bill is:%f",netbill);
+	printf("rate\tqty\tamt\t         dis\tbill\tgst\tnetbill");
+	printf("\n%.2f\t%.2f\t%.2f\t%.2f\t%.2f\t%.2f\t%.2f",rate,qty,amt,dis,bill,gst,netbill);
+	getch();
+}
+//printf("rate\tqty\tamt\tdis");

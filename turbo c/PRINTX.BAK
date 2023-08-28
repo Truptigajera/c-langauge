@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int P,X,Y;
+	clrscr();
+	printf("enter P:");
+	scanf("%d",&P);
+	if(P<=2000 && P>=3000){
+	printf("X:");
+	}
+	else if(P>100 && P<500){
+	printf("Y:");
+	}
+	getch();
+
+}
